@@ -11,7 +11,6 @@ const Profile = () => {
       </div>
       <div>
         <img src="https://imglicensing.com/img_thumbnail_1x1.png"></img>
-        diskr
       </div>
       <MyPosts/>
     </div>
