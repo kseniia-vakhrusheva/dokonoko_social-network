@@ -1,3 +1,32 @@
-.content {
-    color:aqua;
+.dialogues {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    font-size: 20px;
+}
+
+.dialoguesItems {
+    padding: 10px;
+}
+
+.dialogue {
+    box-sizing: border-box;
+    padding: 0 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dialoguesItems element.active {
+    background-color: #eace01;
+}
+
+.dialogue:hover {
+    background-color: #eace01;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message div.active {
+    color:  rgb(79, 25, 25);
 }

@@ -13,4 +13,5 @@
 .app-wrapper-content {
     grid-area: c;
     background-color: #FFE200;
+    font: Montserrat, sans-serif;
 }
