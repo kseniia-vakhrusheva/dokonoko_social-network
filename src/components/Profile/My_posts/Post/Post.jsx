@@ -4,7 +4,7 @@ import s from "./Post.module.css";
 const Post = (props) => {
   return (
     <div className={s.item}>
-      <img src="https://harpersbazaar.com.au/wp-content/uploads/2022/02/Best-face-creams.png"></img>
+      <img src="https://harpersbazaar.com.au/wp-content/uploads/2022/02/Best-face-creams.png" alt="profile_image"></img>
       {props.message}
       <button>Like
         <span> {props.likesCount}</span>

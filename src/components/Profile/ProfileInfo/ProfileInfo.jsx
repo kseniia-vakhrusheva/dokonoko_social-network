@@ -5,7 +5,7 @@ const ProfileInfo = () => {
   return (
     <div>
       <div className={s.pageCover}>
-        <img src="https://www.tallahassee.com/gcdn/presto/2018/08/14/PTAL/6e4fff76-595d-4069-9112-cfe15dbfaa43-IMG_Stadium.jpeg?width=660&height=319&fit=crop&format=pjpg&auto=webp"></img>
+        <img src="https://www.tallahassee.com/gcdn/presto/2018/08/14/PTAL/6e4fff76-595d-4069-9112-cfe15dbfaa43-IMG_Stadium.jpeg?width=660&height=319&fit=crop&format=pjpg&auto=webp" alt="logo"></img>
       </div>
       <div className={s.descriptionBlock}>
         kseniia 

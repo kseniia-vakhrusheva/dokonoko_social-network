@@ -12,31 +12,31 @@ const Navbar = () => {
     <nav className={s.nav}>
       <div className={s.item}>
         <NavLink to="/profile" activeClassName={s.active}>
-          <img src={ProfileIcon} className={s.icon}></img>
+          <img src={ProfileIcon} className={s.icon} alt='icon'></img>
           <span>Profile</span>
         </NavLink>
       </div>
       <div className={s.item}>
         <NavLink to="/dialogues" activeClassName={s.active}>
-          <img src={MessageIcon} className={s.icon}></img>
+          <img src={MessageIcon} className={s.icon} alt='icon'></img>
           <span>Messages</span>
         </NavLink>
       </div>
       <div className={s.item}>
         <NavLink to="/news" activeClassName={s.active}>
-          <img src={NewsIcon} className={s.icon}></img>
+          <img src={NewsIcon} className={s.icon} alt='icon'></img>
           <span>News</span>
         </NavLink>
       </div>
       <div className={s.item}>
         <NavLink to="/music" activeClassName={s.active}>
-          <img src={MusicIcon} className={s.icon}></img>
+          <img src={MusicIcon} className={s.icon} alt='icon'></img>
           <span>Music</span>
         </NavLink>
       </div>
       <div className={s.item}>
         <NavLink to="settings" activeClassName={s.active}>
-          <img src={SettingsIcon} className={s.icon}></img>
+          <img src={SettingsIcon} className={s.icon} alt='icon'></img>
           <span>Settings</span>
         </NavLink>
       </div>
