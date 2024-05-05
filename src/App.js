@@ -9,22 +9,28 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import { BrowserRouter, Route } from "react-router-dom";
 
-const App = () => {
-    return (
-      <BrowserRouter>
-        <div className="app-wrapper">
-          <Header />
-          <Navbar />
-          <div className="app-wrapper-content">
-            <Route path="/profile" component={Profile} />
-            <Route path="/dialogues" component={Dialogues} />
-            <Route path="/news" component={News} />
-            <Route path="/music" component={Music} />
-            <Route path="/settings" component={Settings} />
-          </div>
+const App = (props) => {
+  return (
+    <BrowserRouter>
+      <div className="app-wrapper">
+        <Header />
+        <Navbar />
+        <div className="app-wrapper-content">
+          <Route
+            path="/profile"
+            render={() => <Profile state={props.state.profilePage} />}
+          />
+          <Route
+            path="/dialogues"
+            render={() => <Dialogues state={props.state.dialoguesPage} />}
+          />
+          <Route path="/news" render={() => <News />} />
+          <Route path="/music" render={() => <Music />} />
+          <Route path="/settings" render={() => <Settings />} />
         </div>
-      </BrowserRouter>
-    );
-  };
+      </div>
+    </BrowserRouter>
+  );
+};
 
 export default App;
