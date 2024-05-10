@@ -7,18 +7,17 @@ import Dialogues from "./components/Dialogues/Dialogues";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
-import { BrowserRouter, Route } from "react-router-dom";
+import { Route } from "react-router-dom/cjs/react-router-dom";
 
 const App = (props) => {
   return (
-    <BrowserRouter>
       <div className="app-wrapper">
         <Header />
         <Navbar />
         <div className="app-wrapper-content">
           <Route
             path="/profile"
-            render={() => <Profile state={props.state.profilePage} />}
+            render={() => <Profile profilePage={props.state.profilePage} addPost={props.addPost} updateNewPostText={props.updateNewPostText} />}
           />
           <Route
             path="/dialogues"
@@ -29,7 +28,6 @@ const App = (props) => {
           <Route path="/settings" render={() => <Settings />} />
         </div>
       </div>
-    </BrowserRouter>
   );
 };
 

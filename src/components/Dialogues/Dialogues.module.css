@@ -1,7 +1,7 @@
 .dialogues {
     display: grid;
     grid-template-columns: 2fr 10fr;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .dialoguesItems {
@@ -15,12 +15,13 @@
     cursor: pointer;
 }
 
-.dialoguesItems element.active {
+.dialogue:hover {
     background-color: #eace01;
 }
 
-.dialogue:hover {
-    background-color: #eace01;
+.dialoguesItems a {
+    text-decoration: none;
+    color: rgb(79, 25, 25);
 }
 
 .messages {
