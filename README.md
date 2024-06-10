@@ -3,7 +3,7 @@
 ## Description
 This project is a dynamic web application built using React.js for the UI and Redux for BLL, providing users with a seamless and responsive experience.
 
-## Features
+## Technologies Used
 
 1. **React.js:** The project utilizes React.js, a popular JavaScript library for building user interfaces. React's component-based architecture allows for modular development, making it easier to manage complex UI elements and enhance reusability.
 
