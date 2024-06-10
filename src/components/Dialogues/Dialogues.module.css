@@ -13,6 +13,7 @@
     padding: 0 6px;
     border-radius: 4px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .dialogue:hover {
@@ -29,5 +30,14 @@
 }
 
 .message div.active {
-    color:  rgb(79, 25, 25);
+    color: rgb(79, 25, 25);
 }
+
+textarea {
+    background-color: #fdf2b3;
+    width: 100%;
+    margin: 20px 20px 0 0;
+    border-color: #b19d06;
+    border-radius: 10px;
+}
+

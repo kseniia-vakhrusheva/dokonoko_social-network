@@ -8,10 +8,24 @@
     grid-template-rows: 80px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .app-wrapper-content {
+    padding: 20px;
     grid-area: c;
     background-color: #FFE200;
     font: Montserrat, sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+button {
+    background-color: #fdf2b3;
+    border-color: #b19d06;
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
+    font-size: 15px;
 }

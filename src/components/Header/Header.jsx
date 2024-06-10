@@ -1,10 +1,11 @@
 import React from "react";
 import s from "./Header.module.css";
+import image from '../../image/logo_name.png'
 
 const Header = () => {
   return (
     <header className={s.header}>
-      <img src='https://www.dokonoko.jp/static/images/en/main02_sp.png' alt="logo"></img>
+      <img src={image} alt="logo"></img>
     </header>
   );
 };
