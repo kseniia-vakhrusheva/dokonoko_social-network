@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dokonoko_social-network/static/css/main.95477c43.css",
+    "main.js": "/dokonoko_social-network/static/js/main.abb311f7.js",
+    "static/js/453.ed3810f9.chunk.js": "/dokonoko_social-network/static/js/453.ed3810f9.chunk.js",
+    "static/media/photo_default.png": "/dokonoko_social-network/static/media/photo_default.5faf09a7795d28bf5a2b.png",
+    "static/media/logo_name.png": "/dokonoko_social-network/static/media/logo_name.ae6a3c20cf13bd064eeb.png",
+    "static/media/loading.gif": "/dokonoko_social-network/static/media/loading.742b6dcba4842bb31026.gif",
+    "static/media/settings.svg": "/dokonoko_social-network/static/media/settings.1fb208f76af74169bc342079479a120b.svg",
+    "static/media/message.svg": "/dokonoko_social-network/static/media/message.5a382e35ffb990c6b09c119b6256d995.svg",
+    "static/media/music.svg": "/dokonoko_social-network/static/media/music.0a6fc4643ed6e07622cd3e7c907c07b0.svg",
+    "static/media/users.svg": "/dokonoko_social-network/static/media/users.6c8839e67a388b1779f27e78643088e9.svg",
+    "static/media/profile.svg": "/dokonoko_social-network/static/media/profile.493629cf45a4d9bb9b839912a9b22df6.svg",
+    "static/media/news.svg": "/dokonoko_social-network/static/media/news.f58d3d13ee0d1c1a85dc66b05a12ec34.svg",
+    "index.html": "/dokonoko_social-network/index.html",
+    "main.95477c43.css.map": "/dokonoko_social-network/static/css/main.95477c43.css.map",
+    "main.abb311f7.js.map": "/dokonoko_social-network/static/js/main.abb311f7.js.map",
+    "453.ed3810f9.chunk.js.map": "/dokonoko_social-network/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95477c43.css",
+    "static/js/main.abb311f7.js"
+  ]
+}
