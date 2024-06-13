@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dokonoko_social-network/static/css/main.95477c43.css",
-    "main.js": "/dokonoko_social-network/static/js/main.ea93a158.js",
+    "main.js": "/dokonoko_social-network/static/js/main.a0aa0ceb.js",
     "static/js/453.ed3810f9.chunk.js": "/dokonoko_social-network/static/js/453.ed3810f9.chunk.js",
     "static/media/photo_default.png": "/dokonoko_social-network/static/media/photo_default.5faf09a7795d28bf5a2b.png",
     "static/media/logo_name.png": "/dokonoko_social-network/static/media/logo_name.ae6a3c20cf13bd064eeb.png",
@@ -14,11 +14,11 @@
     "static/media/news.svg": "/dokonoko_social-network/static/media/news.f58d3d13ee0d1c1a85dc66b05a12ec34.svg",
     "index.html": "/dokonoko_social-network/index.html",
     "main.95477c43.css.map": "/dokonoko_social-network/static/css/main.95477c43.css.map",
-    "main.ea93a158.js.map": "/dokonoko_social-network/static/js/main.ea93a158.js.map",
+    "main.a0aa0ceb.js.map": "/dokonoko_social-network/static/js/main.a0aa0ceb.js.map",
     "453.ed3810f9.chunk.js.map": "/dokonoko_social-network/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95477c43.css",
-    "static/js/main.ea93a158.js"
+    "static/js/main.a0aa0ceb.js"
   ]
 }
