@@ -3,6 +3,7 @@ import profileReducer from "./profile-reducer";
 import dialoguesReducer from "./dialogues-reducer";
 import usersReducer from "./users-reducer";
 import authReducer from "./auth-reducer";
+import { thunk } from "redux-thunk";
 
 let reducers = combineReducers({
   profilePage: profileReducer,
@@ -11,7 +12,10 @@ let reducers = combineReducers({
   auth: authReducer,
 });
 
-let store = configureStore({ reducer: reducers });
+let store = configureStore({
+    reducer: reducers,
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
+  })
 
 window.store = store;
 
